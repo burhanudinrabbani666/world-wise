@@ -1,18 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Product from "./pages/product";
-import Pricing from "./pages/pricing";
-import Homepage from "./pages/homepage";
-import PageNotFound from "./pages/page-not-found";
-import AppLayout from "./pages/app-layout";
+import Product from "./pages/Product";
+import Pricing from "./pages/Pricing";
+import Homepage from "./pages/Homepage";
+import PageNotFound from "./pages/PageNotFound";
+import AppLayout from "./pages/AppLayout";
+import Login from "./pages/Login";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="product" element={<Product />} />
-        <Route path="pricing" element={<Pricing />} />
-        <Route path="app" element={<AppLayout />} />
         <Route path="/" element={<Homepage />} />
+        <Route path="pricing" element={<Pricing />} />
+        <Route path="product" element={<Product />} />
+        <Route path="login" element={<Login />} />
+        <Route path="app" element={<AppLayout />} />
 
         {/* Executed when nothing oath matched */}
         <Route path="*" element={<PageNotFound />} />

@@ -3,6 +3,7 @@ import Product from "./pages/product";
 import Pricing from "./pages/pricing";
 import Homepage from "./pages/homepage";
 import PageNotFound from "./pages/page-not-found";
+import AppLayout from "./pages/app-layout";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="product" element={<Product />} />
         <Route path="pricing" element={<Pricing />} />
+        <Route path="app" element={<AppLayout />} />
         <Route path="/" element={<Homepage />} />
 
         {/* Executed when nothing oath matched */}

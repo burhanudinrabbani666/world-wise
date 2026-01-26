@@ -11,6 +11,8 @@ function App() {
         <Route path="product" element={<Product />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="/" element={<Homepage />} />
+
+        {/* Executed when nothing oath matched */}
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>

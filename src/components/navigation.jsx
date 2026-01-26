@@ -1,8 +1,3 @@
-# LINKING BETWEEN ROUTES
-
-use `<Navlink/>` for getting automation class `active`, it can easly customize in our css file
-
-```jsx
 import { NavLink } from "react-router-dom";
 
 function Navigation() {
@@ -18,6 +13,3 @@ function Navigation() {
 }
 
 export default Navigation;
-```
-
-[Next: Styling options](./05-styling-options.md)

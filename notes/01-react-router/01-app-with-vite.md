@@ -10,3 +10,15 @@ Vite is opinionated and comes with sensible defaults out of the box. Read about 
 Vite is also highly extensible via its Plugin API and JavaScript API with full typing support.
 
 You can learn more about the rationale behind the project in the Why Vite section.
+
+```bash
+
+npm create vite@latest
+
+npm install
+
+npm run dev
+
+```
+
+[Next: Routing a single page](./02-routing-a-single-page.md)

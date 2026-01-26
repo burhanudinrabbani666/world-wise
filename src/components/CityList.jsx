@@ -1,18 +1,3 @@
-# IMPLEMENTS CITIES LISTS
-
-installing `json-server` for create fake API
-
-```bash
-npm i json-server
-```
-
-and add to `/package.json`
-
-```json
-    "server": "json-server --watch data/cities.json --port 4000"
-```
-
-```jsx
 import CityItem from "./CityItem";
 import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
@@ -35,6 +20,3 @@ function CityList({ cities, isLoading }) {
 }
 
 export default CityList;
-```
-
-[Next: Implement the countries list](./11-implement-the-countries-list.md)

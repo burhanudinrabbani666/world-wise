@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
+import Form from "./components/Form";
 
 const BASE_URL = `http://localhost:4000`;
 
@@ -55,7 +56,7 @@ function App() {
             path="country"
             element={<CountryList cities={cities} isLoading={isLoading} />}
           />
-          <Route path="form" element={<p>List of fields form</p>} />
+          <Route path="form" element={<Form />} />
         </Route>
 
         {/* Executed when nothing oath matched */}

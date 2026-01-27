@@ -1,6 +1,8 @@
-# IMPLEMENT COUNTRIES LIST
+import styles from "./CountryList.module.css";
+import Spinner from "./Spinner";
+import Message from "./Message";
+import CountryItem from "./CountryItem";
 
-```jsx
 function CountryList({ cities, isLoading }) {
   if (isLoading) return <Spinner />;
 
@@ -23,6 +25,5 @@ function CountryList({ cities, isLoading }) {
     </ul>
   );
 }
-```
 
-[Next: Storing state with url](./12-storing-state-with-url.md)
+export default CountryList;

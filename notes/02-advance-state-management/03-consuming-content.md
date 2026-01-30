@@ -1,7 +1,5 @@
 # CONSUMING CONTENT
 
-# Atomic Blog
-
 ```jsx
 const postContext = createContext();
 ```

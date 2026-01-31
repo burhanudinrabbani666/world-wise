@@ -38,7 +38,7 @@ I hope that by working on this project, I can continuously expand my knowledge a
 - Context API
 - HTML5
 - CSS3
-- Vite / Create React App (depending on your setup)
+- Vite
 - Git & GitHub
 
 ## Things I Learned
@@ -51,12 +51,31 @@ I hope that by working on this project, I can continuously expand my knowledge a
 - Managing global state using the Context API
 - Structuring React applications more cleanly and maintainably
 
-| Section | Topic                                                                             | Status         |
-| ------- | --------------------------------------------------------------------------------- | -------------- |
-| 1       | [React Router: Building single page application](./notes/01-react-router/)        | ✅ Completed   |
-| 2       | [Advance state management: The context API](./notes/02-advance-state-management/) | ✍️ In Learning |
+| Section | Topic                                                                             | Status       |
+| ------- | --------------------------------------------------------------------------------- | ------------ |
+| 1       | [React Router: Building single page application](./notes/01-react-router/)        | ✅ Completed |
+| 2       | [Advance state management: The context API](./notes/02-advance-state-management/) | ✅ Completed |
 
 ## Thanks
 
 Thank you for visiting this repository 🙌
 I plan to continue improving this project by adding new features beyond the course material as part of my personal application development and long-term learning process.
+
+## Get Started
+
+This application using fake API running with `json-server`
+
+```bash
+
+## install npm
+npm install
+
+## start app
+npm run dev
+
+## run server
+npm run server
+
+```
+
+## Screenshot of project

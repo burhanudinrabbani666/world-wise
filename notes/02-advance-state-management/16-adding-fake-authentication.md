@@ -122,7 +122,6 @@ export default function Login() {
           <Button type="primary" onClick={hadleLogin}>
             Login
           </Button>
-          {/* <button onClick={hadleLogin}>Login</button> */}
         </div>
       </form>
     </main>

@@ -35,4 +35,4 @@ if (isLoadingGeoCoding) return <Spinner />;
 if (geoCodingError) return <Message message={geoCodingError}></Message>;
 ```
 
-[Next; Creating new city](./14-creating-new-city.md)
+[Next: Creating new city](./14-creating-new-city.md)

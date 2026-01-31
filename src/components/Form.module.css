@@ -1,3 +1,7 @@
+:global(.react-datepicker .react-datepicker__month-container) {
+  font-size: 1.4rem;
+}
+
 .form {
   background-color: var(--color-dark--2);
   border-radius: 7px;

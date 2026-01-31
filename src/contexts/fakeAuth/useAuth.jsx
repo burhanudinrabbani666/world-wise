@@ -6,4 +6,6 @@ export function useAuth() {
 
   if (context === undefined)
     throw new Error(`AuthCOntext was used out AutoContext`);
+
+  return context;
 }

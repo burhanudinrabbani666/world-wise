@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import styles from "./Map.module.css";
 import {
@@ -12,7 +12,7 @@ import {
 } from "react-leaflet";
 
 import { useGeoLocation } from "../hooks/useGeoLocation";
-import { useCities } from "../../contexts/useCities";
+import { useCities } from "../contexts/useCities";
 import Button from "./Button";
 import { useUrlPosition } from "../hooks/useUrlPostion";
 

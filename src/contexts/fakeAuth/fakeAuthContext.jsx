@@ -1,17 +1,3 @@
-# ADDING FAKE AUTHETICATION: SETTING UP CONTEXT
-
-creating fake authentication provider
-
-```
-./fakeAuth/
-├── authContext.jsx
-├── fakeAuthContext.jsx
-└── useAuth.jsx
-```
-
-`fakeAuthContext.jsx`
-
-```jsx
 import { useReducer } from "react";
 import { AuthContext } from "./authContext";
 
@@ -62,4 +48,3 @@ export function AuthProvider({ children }) {
     </AuthContext.Provider>
   );
 }
-```

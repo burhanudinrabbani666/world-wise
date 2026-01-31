@@ -11,23 +11,20 @@ import {
   useMapEvent,
 } from "react-leaflet";
 
-import { useGeolocation } from "../hooks/useGeolocation";
+import { useGeoLocation } from "../hooks/useGeoLocation";
 import { useCities } from "../../contexts/useCities";
 import Button from "./Button";
+import { useUrlPosition } from "../hooks/useUrlPostion";
 
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([40, 0]);
-  const [search] = useSearchParams();
-
   const {
     isLoading: isLoadingPosition,
     position: geoLocataionPosition,
     getPosition,
-  } = useGeolocation();
-
-  const mapLat = search.get("lat");
-  const mapLng = search.get("lng");
+  } = useGeoLocation();
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(
     function () {
@@ -86,7 +83,6 @@ function DetecClick() {
 
   useMapEvent({
     click: (event) => {
-      console.log(event.latlng);
       navigate(`form?lat=${event.latlng.lat}&lng=${event.latlng.lng}`);
     },
   });

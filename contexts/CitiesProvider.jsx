@@ -1,12 +1,13 @@
-import { createContext, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { CitiesContexts } from "./cityContext";
 
 const BASE_URL = `http://localhost:4000`;
 
-const CitiesContexts = createContext();
-
-function CitiesProvider({ children }) {
+export function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+
+  console.log(cities);
 
   useEffect(() => {
     async function fetchCities() {
@@ -36,5 +37,3 @@ function CitiesProvider({ children }) {
     </CitiesContexts.Provider>
   );
 }
-
-export { CitiesProvider };

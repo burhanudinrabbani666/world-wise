@@ -35,54 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "f5b4",
-      "cityName": "Sumberjaya",
-      "country": "Indonesia",
-      "emoji": "🇮🇩",
-      "date": "2026-01-31T07:59:06.582Z",
-      "notes": "rrrrr",
-      "position": {
-        "lat": "-6.683362354988123",
-        "lng": "108.36141586303712"
-      }
-    },
-    {
-      "id": "e2d1",
-      "cityName": "Langkho",
-      "country": "Myanmar",
-      "emoji": "🇲🇲",
-      "date": "2026-01-31T08:02:17.286Z",
-      "notes": "ddddd",
-      "position": {
-        "lat": "20.34462694382967",
-        "lng": "97.9541015625"
-      }
-    },
-    {
-      "id": "f8c1",
-      "cityName": "Ngaanyatjarraku",
-      "country": "Australia",
-      "emoji": "🇦🇺",
-      "date": "2026-01-31T08:05:56.255Z",
-      "notes": "aus",
-      "position": {
-        "lat": "-26.391868819746655",
-        "lng": "128.82568215585096"
-      }
-    },
-    {
-      "id": "1c99",
-      "cityName": "Beluru",
-      "country": "Malaysia",
-      "emoji": "🇲🇾",
-      "date": "2026-01-31T08:07:39.341Z",
-      "notes": "upin",
-      "position": {
-        "lat": "3.6888551431470478",
-        "lng": "114.30175781250001"
-      }
     }
   ]
 }
